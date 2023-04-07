@@ -4,7 +4,8 @@ Hey ! This is for tutorial purpose.
 commit message
 git push origin master
 git push origin [PICTURE]
-<img src="path/to/https://drive.google.com/drive/folders/1GIJ_wiEgVL3NBK34HvJduAuHOctdZoum.image.jpg" alt="Gia Ngô">
+![alt text](http://url/to/img.png)
+<img src="path/to/.image.jpg" alt="Gia Ngô">
 <!DOCTYPE html>
 <html lang="vi">
 <head>
