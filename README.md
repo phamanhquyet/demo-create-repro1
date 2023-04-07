@@ -3,6 +3,7 @@
 Hey ! This is for tutorial purpose. 
 commit message
 git push origin master
+git push origin [PICTURE]
 <!DOCTYPE html>
 <html lang="vi">
 <head>
