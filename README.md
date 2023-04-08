@@ -50,7 +50,7 @@ Hey ! This is for tutorial purpose.
 <body>
     <div class="container">
         <h1>Giới thiệu về Gia Ngô</h1>
-        <img src="![320720279_934166517747468_3788924919788155170_n](https://user-images.githubusercontent.com/126507571/230676778-7866bcab-10d8-4b04-a530-04457d38ee08.jpg)" alt="Gia Ngô">
+        <img src=320720279_934166517747468_3788924919788155170_n.jpg" alt="Gia Ngô">
         <h2>Thông tin cá nhân</h2>
         <p><span class="bold">Họ tên:</span> Gia Ngô</p>
         <p><span class="bold">Tuổi:</span> 20</p>
