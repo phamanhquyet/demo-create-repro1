@@ -2,6 +2,7 @@
 
 Hey ! This is for tutorial purpose. 
 ![320720279_934166517747468_3788924919788155170_n](https://user-images.githubusercontent.com/126507571/230676778-7866bcab-10d8-4b04-a530-04457d38ee08.jpg)
+<img src="https://github.com/GIANGO545/demo-create-repo1/images/gia-ngo.jpg" alt="Gia Ngô">
 
 <!DOCTYPE html>
 <html lang="vi">
