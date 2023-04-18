@@ -50,7 +50,7 @@ I'M HERE, U CAN SEE ME <3
   <body>
     <div class="container">
       <h1>Giới thiệu về Gia Ngô</h1>
-      <img src="https://github.com/GIANGO545/demo-create-repro1/issues/gia-ngo.jpg" alt="Gia Ngô">
+      <img src="https://github.com/GIANGO545/demo-create-repro1/issues.jpg" alt="Gia Ngô">
       <h2>Thông tin cá nhân</h2>
       <p><span class="bold">Họ tên:</span> Gia Ngô</p>
       <p><span class="bold">Tuổi:</span> 20</p>
