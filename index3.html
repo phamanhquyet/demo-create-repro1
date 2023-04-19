@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Crush</title>
+	<style>
+		body {
+			background-color: pink;
+			font-family: sans-serif;
+			text-align: center;
+			margin-top: 100px;
+		}
+
+		.heart {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
+			animation: heartbeat 1s ease-in-out infinite;
+		}
+
+		.heart:before,
+		.heart:after {
+			position: absolute;
+			content: "";
+			top: 0;
+			left: 0;
+			width: 50px;
+			height: 80px;
+			background-color: red;
+			border-radius: 50px 50px 0 0;
+			transform: rotate(-45deg);
+		}
+
+		.heart:after {
+			left: 30px;
+			transform: rotate(45deg);
+		}
+
+		@keyframes heartbeat {
+			0% {
+				transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
+			}
+			50% {
+				transform: translate(-50%, -50%) rotate(45deg) scale(0.7);
+			}
+			100% {
+				transform: translate(-50%, -50%) rotate(405deg) scale(0.5);
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1> Crush</h1>
+	<div class="heart"></div>
+	<div class="heart" style="animation-delay: 0.2s;"></div>
+	<div class="heart" style="animation-delay: 0.4s;"></div>
+	<div class="heart" style="animation-delay: 0.6s;"></div>
+	<div class="heart" style="animation-delay: 0.8s;"></div>
+	<p id="message"></p>
+	<script>
+		function animateHeart() {
+			var hearts = document.getElementsByClassName("heart");
+			for (var i = 0; i < hearts.length; i++) {
+				hearts[i].classList.add("animate");
+				setTimeout(function() {
+					hearts[i].classList.remove("animate");
+				}, 1000);
+			}
+		}
+
+		var message = "I LOVE YOU";
+		var index = 0;
+		var messageInterval = setInterval(function() {
+			document.querySelector("#message").textContent += message[index];
+			index++;
+			if (index === message.length) {
+				animateHeart();
+				clearInterval(messageInterval);
+			}
+		}, 500);
+	</script>
+</body>
+</html>
